@@ -9,7 +9,7 @@ def log_price_change(func):
 
 @log_price_change
 def change_price(item, old_price, new_price):
-    return (item, new_price)
+    return item, new_price
 
 change_price('Кресло', 5000, 4500)
 change_price('Стол', 8000, 7600)
